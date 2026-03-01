@@ -1,0 +1,91 @@
+.form{
+    width: 250px;
+    height: 430px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50% , rgba(0,0,0,0.8) 50%);
+    position: absolute;
+    top: 105px ;
+    left: 870px;
+    color: #cad4d8;
+    border-radius: 10px;
+    padding: 25px;
+    margin: auto;
+    align-items: center;
+    
+}
+.form h2{
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+.form input{
+    width: 100%;
+    height: 35px;
+    background:transparent ;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    font-family: Arial;
+}
+.btnn{
+    width: 100%;
+    height: 40px;
+    background-color: #0072ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-weight: bold;
+
+}
+.btnn:hover{
+    background: #0056cc;
+    color: #000;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.form .link a{
+    text-decoration: none;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.iconn a{
+    text-decoration: none;
+    color: white;
+}
+.iconn ion-icon{
+    color: white;
+    font-size: 30px;
+    
+}
+.iconn{
+    display: flex;
+    justify-content: center;  /* centre horizontalement */
+    align-items: center;
+    gap: 15px;                /* espace entre icônes */
+}
