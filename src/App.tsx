@@ -17,10 +17,11 @@ function App() {
 
   return (
     <div
-      className='hero'
+      className=''
     >
       <BrowserRouter>
       <Header/>
+      <div className='p-7'>
        <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -29,6 +30,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/registre" element={ <FormulaireContact/>}/>
        </Routes>
+       </div>
      </BrowserRouter>
       {/* <div> <Accueil/>
         <a href="https://vite.dev" target="_blank">
